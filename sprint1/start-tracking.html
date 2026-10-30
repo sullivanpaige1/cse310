@@ -15,7 +15,12 @@ h1,h2,h3{font-family:'Space Grotesk',sans-serif;line-height:1.05;margin:0}h1{max
 
 
 </style>
-  <header class="shell"><nav><a class="brand" href="sprint.html"><span class="brand-mark">🍴</span> CampusBite</a><div class="nav-links"><a href="how-it-works.html">How it works</a><a href="features.html">Features</a><a class="nav-cta" href="get-started.html">Get started</a></div></nav></header>
+<header class="shell">
+    <nav aria-label="Main navigation">
+      <a class="brand" href="sprint.html"><span class="brand-mark">🍴</span> CampusBite</a>
+      <div class="nav-links"><a href="how-it-works.html">How it works</a><a href="features.html">Features</a><a href="recipes.html">Community Recipes</a><a href="get-started.html">Get started</a></div>
+    </nav>
+  </header>  
   <main>
     <section class="page-hero shell"><div class="eyebrow"><span></span> quick entry</div><h1>What did you <em>eat?</em></h1><p class="lead">Add a purchase now and CampusBite will keep your running balance up to date.</p></section>
     <section class="content-section shell"><div class="panel"><div><h2>Log your latest bite.</h2><p class="lead">This demo form is ready to connect to your tracker or database later.</p><p>For now, enter a sample purchase to see the friendly confirmation.</p></div><form class="form" onsubmit="showMessage(event)"><label>AMOUNT<input type="number" min="0" step="0.01" placeholder="12.40" required></label><label>WHERE DID YOU EAT?<input type="text" placeholder="Campus café" required></label><label>CATEGORY<select required><option value="">Choose one</option><option>Breakfast</option><option>Lunch</option><option>Dinner</option><option>Snack</option></select></label><button class="button" type="submit">Save purchase →</button><p class="form-message" id="message">Saved! Your balance is looking good ✨</p></form></div></section>
