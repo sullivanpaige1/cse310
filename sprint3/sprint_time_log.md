@@ -1,8 +1,8 @@
 # CSE 310 - Sprint Time Log
 
-Name:
+Name: Paige Sullivan
 
-Sprint #:
+Sprint #: 3
 
 ## Instructions
 
@@ -39,7 +39,7 @@ _Note: Add more rows as needed._
 
 |Categroy                       |Total Time (Hours:Minutes)|
 |-------------------------------|:------------------------:|
-|IM - Individual Module         |                          |
-|TP - Team Project              |                          |
-|MTG - Class Meetings           |                          |
-|**TOTAL**                      |                          |
+|IM - Individual Module         |9.30 hours                          |
+|TP - Team Project              |3.30 hours                          |
+|MTG - Class Meetings           |2 hours                          |
+|**TOTAL**                      |14 hours                          |
